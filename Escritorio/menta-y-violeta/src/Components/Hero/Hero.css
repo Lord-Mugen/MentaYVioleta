@@ -1,4 +1,24 @@
-.hero{
-    background-color: #A76CBF;
+.container__hero{
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
+.hero{
+    background-color: #A76CBF;
+    width: 351px;
+    height: 203px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+}
+
+
+.hero__h1{
+  background: none;
+  color: #D2F4E7;
+  font-size: 23px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}

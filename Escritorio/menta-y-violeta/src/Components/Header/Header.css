@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__img{
+    width: 70%;
+    height: 20%;
+}
