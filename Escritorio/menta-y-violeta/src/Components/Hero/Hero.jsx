@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className="container__hero">
       <section className="hero">
-        <h1 className="hero__h1"> Bienvenidos<br/> a Menta y<br/> Violeta</h1> 
-        <img src={HeroImage} alt="Hero image" className="header__img"/>
+        <h1 className="hero__h1"> Bienvenidos<br/> a Mentta y<br/> Violetta</h1> 
+        <img src={HeroImage} alt="Hero image" className="hero__img"/>
       </section>
     </div>
   )

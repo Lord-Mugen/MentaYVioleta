@@ -1,0 +1,25 @@
+.nav__container{
+    display: flex;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #A76CBF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 375px;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+}
+
+.nav__icon{
+    background: none;
+}
+
+.icon{
+    background: none;
+    color: #fff;
+    font-size: 35px;
+}

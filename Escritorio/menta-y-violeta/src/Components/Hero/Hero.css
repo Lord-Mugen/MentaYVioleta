@@ -11,14 +11,22 @@
     border-radius: 13px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 
 .hero__h1{
   background: none;
   color: #D2F4E7;
-  font-size: 23px;
+  font-size: 30px;
+  letter-spacing: 1px;
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 10px;
+  font-family: 'Josefin Sans', sans-serif;}
+
+.hero__img{
+  width: 168px;
+  height: 150px;
+  border-radius: 14px;
 }
