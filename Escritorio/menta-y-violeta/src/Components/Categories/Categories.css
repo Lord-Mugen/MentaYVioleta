@@ -1,0 +1,25 @@
+.catcontainer{
+
+}
+
+.categories{
+    display: flex;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+ 
+.categories::-webkit-scrollbar{
+    display: none;
+}
+ 
+button{
+    border-radius: 11px;
+    margin: 2px;
+}
+
+/* .categories::-scro{
+    display: none;
+}  */
+ 
+

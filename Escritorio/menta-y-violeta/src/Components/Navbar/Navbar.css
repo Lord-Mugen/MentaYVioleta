@@ -1,6 +1,7 @@
 .nav__container{
     display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .navbar{
@@ -8,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 375px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     height: 50px;
