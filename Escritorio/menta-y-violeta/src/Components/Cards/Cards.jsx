@@ -18,6 +18,7 @@ const Cards = () => {
             </div>
             <div className="plusMinus">
               <FontAwesomeIcon icon={faCircleMinus} className="minus"/>
+              <p>2</p>
               <FontAwesomeIcon icon={faCirclePlus} className="plus"/>
             </div>
 
