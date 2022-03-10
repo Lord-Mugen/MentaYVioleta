@@ -5,7 +5,7 @@ import './Categories.css'
 const Categories = () => {
   return (
     <div className="catcontainer">
-      <h2>Categorias</h2>
+      <h2>Categorías</h2>
       <div className="categories">
           <Button cat='categ.1'/>
           <Button cat='categ.2'/>

@@ -1,0 +1,54 @@
+.card{
+    background-color: #A76CBF;
+    height: 230px;
+    width: 130px;
+    border-radius: 15px;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid #D2F4E7;
+}
+
+.card__img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.imagecard{
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+
+}
+
+.card__data{
+    position: relative;
+    justify-content: center;
+    background: none;
+}
+
+.product__name{
+    background: none;
+    color: #D2F4E7;
+}
+
+.product__price{
+    background: none;
+}
+
+.plusMinus{
+    display: flex;
+    background: none;
+    justify-content: center;
+}
+
+.plus{
+    background: none;
+}
+
+.minus{
+    background: none;
+
+}
