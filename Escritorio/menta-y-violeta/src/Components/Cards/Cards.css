@@ -1,57 +1,60 @@
 .card{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    max-width: 150px;
     background-color: #A76CBF;
-    height: 230px;
-    width: 130px;
     border-radius: 15px;
-    display: flex; 
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    border: 1px solid #D2F4E7;
 }
 
 .card__img{
-    width: 40px;
-    height: 40px;
-    position: relative;
+    width:100%;
+    height: 135px;
 }
 
 .imagecard{
-    width: 130px;
-    height: 130px;
-    border-radius: 15px;
-
+  width:100% ;
+  height: 100%;
+  border-radius: 15px;
 }
-
 .card__data{
-    position: relative;
-    justify-content: center;
-    background: none;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0px 5px;
 }
-
 .product__name{
-    background: none;
-    color: #D2F4E7;
+  color: #D2F4E7;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 13px;
+  text-align: center;
 }
 
 .product__price{
-    background: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 13px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .plusMinus{
     display: flex;
-    background: none;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+    
 }
 
 .plus{
-    background: none;
+    font-size: clamp(1.5rem, 2.5vh, 2.5rem);
+    padding-left: 10px;
 }
-
 .minus{
-    background: none;
-
-}
-p{
-    background: none;
+    font-size: clamp(1.5rem, 2.5vh, 2.5rem);
+    padding-right: 10px;
 }

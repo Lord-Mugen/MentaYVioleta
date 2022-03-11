@@ -12,15 +12,22 @@ const Cards = () => {
             <div className="card__img">
                 <img src={imgcard} alt="lildoll" className="imagecard"/>
             </div>
-            <div className="card__data">
-                <h4 className="product__name">Infocard12345</h4>
-                <h4 className="product__price">$10.000</h4>
+
+            <div className="infocardcontainer">
+
+              <div className="card__data">
+                  <p className="product__name">Infocard12345</p>
+                  <p className="product__price">$10.000</p>
+              </div>
+
+              <div className="plusMinus">
+                <FontAwesomeIcon icon={faCircleMinus} className="minus"/>
+                <p>2</p>
+                <FontAwesomeIcon icon={faCirclePlus} className="plus"/>
+              </div>
+
             </div>
-            <div className="plusMinus">
-              <FontAwesomeIcon icon={faCircleMinus} className="minus"/>
-              <p>2</p>
-              <FontAwesomeIcon icon={faCirclePlus} className="plus"/>
-            </div>
+
 
         </div>
     </div>

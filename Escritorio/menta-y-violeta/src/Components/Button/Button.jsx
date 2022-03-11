@@ -6,4 +6,4 @@ const Button = ({cat}) => {
   )
 }
 
-export default Button
+export default Button 
