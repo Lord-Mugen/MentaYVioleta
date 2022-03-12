@@ -1,0 +1,8 @@
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+.searchicon{
+    font-size: clamp(1.5rem, 2.5vh, 2.5rem);
+    color: #CB9BDE;
+}

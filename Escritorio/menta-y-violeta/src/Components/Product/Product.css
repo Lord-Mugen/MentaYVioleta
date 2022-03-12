@@ -1,0 +1,19 @@
+/* .prodcontainer{
+    overflow: scroll;
+} */
+.products{
+    display: flex;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+ 
+.products::-webkit-scrollbar{
+    display: none;
+}
+ 
+h3{
+    line-height: 25px;
+    margin-bottom: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
