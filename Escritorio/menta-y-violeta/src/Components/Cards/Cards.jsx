@@ -5,32 +5,41 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCircleMinus, faCirclePlus} from '@fortawesome/free-solid-svg-icons';
 /* import {faCirclePlus } from '@fortawesome/free-regular-svg-icons'
  */import {productos} from '../../Data/datosPrueba';
-/* const productimages= require.context('../../Resources/Images/CEJAS', true);
- */
 
-console.log(productos);
 
-const Cards = () => {
+
+const Cards = ({id, category, name, price, img}) => {
   const [counter, setCounter] = useState(0);
+
+  const handleAddItem = () =>{
+    setCounter(counter+1);
+  }
+
+  const handleSubsItems = () =>{
+    if (counter>0){
+     setCounter(counter-1);
+    }
+  }
+
   return (
     <div>
 
         <div className="card">
             <div className="card__img">
-                <img src={imgcard} alt="lildoll" className="imagecard"/>
+                <img src={img} alt="prodimage" className="imagecard"/>
             </div>
 
             <div className="infocardcontainer">
 
               <div className="card__data">
-                  <p className="product__name">Infocard12345</p>
-                  <p className="product__price">$10.000</p>
+                  <p className="product__name">{name}</p>
+                  <p className="product__price">{price}</p>
               </div>
 
               <div className="plusMinus">
-                <FontAwesomeIcon icon={faCircleMinus} className="minus" onClick={()=>setCounter(() => counter-1)}/>
+                <FontAwesomeIcon icon={faCircleMinus} className="minus" onClick={handleSubsItems}/>
                 <p>{counter}</p>
-                <FontAwesomeIcon icon={faCirclePlus} className="plus" onClick={()=>setCounter(() => counter+1)}/>
+                <FontAwesomeIcon icon={faCirclePlus} className="plus" onClick={handleAddItem }/>
               </div>
 
             </div>
@@ -40,4 +49,5 @@ const Cards = () => {
   )
 }
 
+ 
 export default Cards

@@ -6,11 +6,13 @@ import Cart from '../CartScreen/Cart';
 const AppRouter = () => {
   return (
     <BrowserRouter>
-        <h1>welcome to react router</h1>
-        <Routes>
-            <Route path="/" element={<MentaYVioleta/>}/>
-            <Route path="/CartScreen" element={<Cart/>}/>
-        </Routes>
+      <div>
+          <h1>welcome to react router</h1>
+          <Routes>
+              <Route path="/" element={<MentaYVioleta/>}/>
+              <Route path="/CartScreen/*" element={<Cart/>}/>
+          </Routes>
+      </div>
     </BrowserRouter>
   )
 }

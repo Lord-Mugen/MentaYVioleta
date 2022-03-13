@@ -16,8 +16,8 @@ const MentaYVioleta = () => {
           <Hero/> 
           <Categories/>
           <Product/>
-          {/* <Navbar/>  */}
-         {/* <AppRouter/>  */}      
+         {/*  <Navbar/>  
+          <AppRouter/>  */}       
         </div>
       );
 }

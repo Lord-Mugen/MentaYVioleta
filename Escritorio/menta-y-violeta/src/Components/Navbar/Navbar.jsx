@@ -11,23 +11,23 @@ const Navbar = () => {
         <footer className="navbar">
           <Link to="/"></Link>
 
-            <NavLink   to="/Main">
+            <Link   to="/Main/*">
               <div className="nav__icon">
                   <FontAwesomeIcon icon={faHouse} className="icon"/>
               </div>
-            </NavLink>
+            </Link>
 
-            <NavLink to="/CartScreen">
+            <Link to="/CartScreen/*">
               <div className="nav__icon">
                 <FontAwesomeIcon icon={faCartShopping} className="icon"/>
               </div>
-            </NavLink>
+            </Link>
 
-            <NavLink to="/">
+            <Link to="/">
               <div className="nav__icon">
               <FontAwesomeIcon icon={faDollarSign} className="icon"/>
               </div>
-            </NavLink>
+            </Link>
 
         </footer>
     </>

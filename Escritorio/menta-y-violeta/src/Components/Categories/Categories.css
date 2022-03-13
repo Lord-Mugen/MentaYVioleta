@@ -30,6 +30,7 @@ button{
     padding:0 15px;
     font-size: 17px;
     font-weight: 20px;
+    width: auto;
 }
 
 /* .categories::-scro{

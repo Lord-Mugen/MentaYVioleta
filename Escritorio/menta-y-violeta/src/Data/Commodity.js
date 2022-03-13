@@ -1,5 +1,6 @@
-{
-    "infoProduct":[
+/* 
+   const productos= 
+   "infoProduct"[
         {
             "id":1,
             "category":"cejas",
@@ -964,9 +965,9 @@
             "img-Detail":"",
             "recomended":0
         }
-],
+]
 
-    "categorias":[
+    "category"[
         {
             "id":1,
             "nameCategory":"recomendados"
@@ -1020,4 +1021,4 @@
             "nameCategory":"sombras"
         }
     ]
-}
+ */
