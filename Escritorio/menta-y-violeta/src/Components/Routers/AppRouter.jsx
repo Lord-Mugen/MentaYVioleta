@@ -8,7 +8,7 @@ const AppRouter = () => {
     <BrowserRouter>
         <h1>welcome to react router</h1>
         <Routes>
-            <Route path="/Main" element={<MentaYVioleta/>}/>
+            <Route path="/" element={<MentaYVioleta/>}/>
             <Route path="/CartScreen" element={<Cart/>}/>
         </Routes>
     </BrowserRouter>

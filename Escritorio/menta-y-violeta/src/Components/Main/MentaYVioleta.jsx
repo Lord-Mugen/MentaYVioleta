@@ -11,13 +11,13 @@ import AppRouter from '../Routers/AppRouter';
 const MentaYVioleta = () => {
     return (
         <div className="App-Container">
-          {/* <Search/>
+          <Search/>
           <Header/>
           <Hero/> 
           <Categories/>
           <Product/>
-          <Navbar/> */}
-          <AppRouter/>
+          {/* <Navbar/>  */}
+         {/* <AppRouter/>  */}      
         </div>
       );
 }
