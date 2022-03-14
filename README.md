@@ -5,20 +5,20 @@ Se tuvo como proposito realizar una tienda virtual completamente funcional para 
 #Instalacion
 
 los comandos para hacer la instalación del proyecto son los siguientes: 
--npm install
--npm i --save @fortawesome/fontawesome-svg-core
--npm i --save @fortawesome/free-solid-svg-icons
--npm i --save @fortawesome/free-regular-svg-icons
-- npm install react-router-dom@6
+- npm install</br>
+- npm i --save @fortawesome/fontawesome-svg-core</br>
+- npm i --save @fortawesome/free-solid-svg-icons</br>
+- npm i --save @fortawesome/free-regular-svg-icons</br>
+- npm install react-router-dom@6</br>
 
 # Deploy
 Para hacer el deploy resultó más efectivo usar Heroku.com
 
 # Construido con
--ReactJs
--Javascrip
--Css3
--NodeJs
+-ReactJs </br>
+-Javascrip</br></br>
+-Css3</br>
+-NodeJs</br>
 
 # Autores
 .Christian Javier Ruiz Cortés
