@@ -1,10 +1,7 @@
 import React, { useState }from 'react';
-import imgcard from '../../Resources/Images/muneca.jpg'
 import './Cards.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCircleMinus, faCirclePlus} from '@fortawesome/free-solid-svg-icons';
-/* import {faCirclePlus } from '@fortawesome/free-regular-svg-icons'
- */import {productos} from '../../Data/datosPrueba';
 
 
 

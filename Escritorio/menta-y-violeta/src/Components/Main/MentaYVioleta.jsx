@@ -5,7 +5,6 @@ import Categories from '../Categories/Categories';
 import Navbar from '../Navbar/Navbar';
 import Product from '../Product/Product';
 import Search from '../Search/Search';
-import AppRouter from '../Routers/AppRouter';
 
 
 const MentaYVioleta = () => {
@@ -16,8 +15,7 @@ const MentaYVioleta = () => {
           <Hero/> 
           <Categories/>
           <Product/>
-         {/*  <Navbar/>  
-          <AppRouter/>  */}       
+          <Navbar/>
         </div>
       );
 }
