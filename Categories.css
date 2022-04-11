@@ -1,0 +1,39 @@
+.catcontainer{
+}
+
+.categories{
+    display: flex;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+ 
+.categories::-webkit-scrollbar{
+    display: none;
+}
+ 
+h2{
+    line-height: 25px;
+    margin-bottom: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+button{
+    border-radius: 11px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background-color: #FFCDD4; 
+    height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:0 15px;
+    font-size: 17px;
+    font-weight: 20px;
+}
+
+/* .categories::-scro{
+    display: none;
+}  */
+ 
+
